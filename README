@@ -1,0 +1,29 @@
+This is Version 1.1 of Statistics::Descriptive, a module of descriptive 
+statistical methods.  This implementation allows the user to choose 
+bewteen storing all the data added to the statistical variable and having
+access to all definied statistical functions or not storing any
+of the data and having access to a limited set of functions. This
+feature is especially useful when dealing with large data sets.
+
+The following statistical methods, as well as some functions supporting
+the class structure, have been implemented. See the Descriptive.pod
+file for full details.
+
+Count
+Sum
+Max
+Min
+SampleRange
+Mean     
+Variance
+StandardDeviation
+Median
+HarmonicMean
+GeometricMean
+TrimmedMean
+Mode
+FrequencyDistribution
+LeastSquaresFit
+
+The directory these files are in, Statistics, should be moved
+to where your perl libraries reside. 
